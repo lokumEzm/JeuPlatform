@@ -10,7 +10,8 @@ public class PlayerInputController : MonoBehaviour
 
     private void OnMove(InputValue inputValue)
     {
-        MovementInputVector = inputValue.Get<Vector2>();
+        //MovementInputVector = inputValue.Get<Vector2>();
+
     }
 
     private void OnJump(InputValue inputValue)

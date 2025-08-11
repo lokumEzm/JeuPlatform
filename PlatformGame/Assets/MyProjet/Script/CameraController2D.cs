@@ -8,10 +8,18 @@ public class CameraController2D : MonoBehaviour
     public Vector3 cameraOffset;
     public PlayerController2D playerController2D;
 
+    public Transform trackStart;
+
     void Start()
     {
+        AssignPlayer();
+    }
+
+    void AssignPlayer()
+    {
         playerController2D.moveDirectionContraints = directionCamera.right;
-        player.transform.position = directionCamera.position;
+
+        player.transform.position = trackStart.position;
     }
 
 
@@ -20,7 +28,7 @@ public class CameraController2D : MonoBehaviour
         cam.transform.position = player.transform.position + cameraOffset;
 
     }
-    
-    
+
+
 
 }

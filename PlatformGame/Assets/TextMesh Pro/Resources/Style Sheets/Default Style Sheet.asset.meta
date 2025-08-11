@@ -6,3 +6,10 @@ NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203438
+  packageName: Physics Character Controller
+  packageVersion: 5.0.0
+  assetPath: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  uploadId: 657120

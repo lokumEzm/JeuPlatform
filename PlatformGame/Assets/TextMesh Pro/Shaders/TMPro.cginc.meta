@@ -7,3 +7,10 @@ ShaderImporter:
   userData: Version 2.0
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203438
+  packageName: Physics Character Controller
+  packageVersion: 5.0.0
+  assetPath: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  uploadId: 657120

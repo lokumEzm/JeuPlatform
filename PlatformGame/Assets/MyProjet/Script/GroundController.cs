@@ -18,8 +18,7 @@ public class GroundController : MonoBehaviour
     {
         _capsuleCollider = GetComponent<CapsuleCollider>();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         float sphereCastRadius = _capsuleCollider.radius - 0.1f;

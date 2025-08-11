@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c78104021a713f4b947f57e1b7b20ed
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 131813
+  packageName: Peasant (Villager) Old Man
+  packageVersion: 1.0
+  assetPath: Assets/Peasant (Villager) Old Man/Animations/AC_Peasant_Old_Man_Scythe_Mow.controller
+  uploadId: 524855

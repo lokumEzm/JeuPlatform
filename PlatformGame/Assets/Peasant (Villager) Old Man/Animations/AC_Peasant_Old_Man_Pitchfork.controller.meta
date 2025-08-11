@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 19f1da466da426043acd321bb5de5fd9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 131813
+  packageName: Peasant (Villager) Old Man
+  packageVersion: 1.0
+  assetPath: Assets/Peasant (Villager) Old Man/Animations/AC_Peasant_Old_Man_Pitchfork.controller
+  uploadId: 524855

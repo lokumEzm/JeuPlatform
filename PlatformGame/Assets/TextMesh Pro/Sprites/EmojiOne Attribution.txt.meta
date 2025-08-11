@@ -5,3 +5,10 @@ TextScriptImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203438
+  packageName: Physics Character Controller
+  packageVersion: 5.0.0
+  assetPath: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  uploadId: 657120
