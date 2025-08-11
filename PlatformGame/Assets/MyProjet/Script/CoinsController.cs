@@ -7,6 +7,7 @@ public class CoinsController : MonoBehaviour,ICollectable
     public void OnCollect()
     {
         Debug.Log("Piece collecté");
+        Destroy(gameObject);
     }
 
     void Start()

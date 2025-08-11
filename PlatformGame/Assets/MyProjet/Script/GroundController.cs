@@ -17,6 +17,7 @@ public class GroundController : MonoBehaviour
     private void Awake()
     {
         _capsuleCollider = GetComponent<CapsuleCollider>();
+        
     }
     
     void Update()

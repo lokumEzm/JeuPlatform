@@ -7,7 +7,7 @@ public class PlayerCollectSystem : MonoBehaviour
 
     }
 
-    void OTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         ICollectable icollectable = other.gameObject.GetComponent<ICollectable>();
         Debug.Log(icollectable);

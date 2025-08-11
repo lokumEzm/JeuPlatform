@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerController2D : MonoBehaviour
 {
-    private PlayerInputController _playerInputController;
+    public PlayerInputController _playerInputController;
 
     Vector3 inputDir = Vector3.zero;
     public float _speed = 5;
@@ -10,7 +10,6 @@ public class PlayerController2D : MonoBehaviour
     public float _jumpSpeed = 10;
     public Vector3 moveDirectionContraints;
 
-    // public Rigidbody rb;
 
     private GroundController _groundController;
 
@@ -25,13 +24,25 @@ public class PlayerController2D : MonoBehaviour
         _playerInputController.OnJumpButtonPressed += JumpButtonPressed;
     }
 
+	private void OnEnable()
+	{
+		_playerInputController.OnJumpButtonPressed += JumpButtonPressed;
 
-    void FixedUpdate()
+	}
+
+
+	private void OnDisable()
+	{
+		_playerInputController.OnJumpButtonPressed -= JumpButtonPressed;
+	}
+
+	void FixedUpdate()
     {
         if (inputDir.x != 0)
             Move();
-        //Jump();
-    }
+        Jump();
+
+	}
 
     void Update()
     {
@@ -41,21 +52,21 @@ public class PlayerController2D : MonoBehaviour
     public void Move()
     {
         Vector3 direction = moveDirectionContraints * inputDir.x * _speed * Time.deltaTime;
+        Vector3 _finalPos = transform.position + direction;
 
-        _rigidbody.MovePosition(transform.position + direction);
+		_rigidbody.MovePosition(_finalPos);
 
         if (gameObject.transform.position.y <= -10)
         {
             gameObject.transform.position = new Vector3(-11.45f, 1, 0.5f);
         }
+        transform.LookAt(_finalPos);
     }
 
 
 
     public void Jump()
     {
-
-        Debug.Log(_jumpTriggered);
 
         if (_jumpTriggered)
         {
