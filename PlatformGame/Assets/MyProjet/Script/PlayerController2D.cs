@@ -24,25 +24,25 @@ public class PlayerController2D : MonoBehaviour
         _playerInputController.OnJumpButtonPressed += JumpButtonPressed;
     }
 
-	private void OnEnable()
-	{
-		_playerInputController.OnJumpButtonPressed += JumpButtonPressed;
+    private void OnEnable()
+    {
+        _playerInputController.OnJumpButtonPressed += JumpButtonPressed;
 
-	}
+    }
 
 
-	private void OnDisable()
-	{
-		_playerInputController.OnJumpButtonPressed -= JumpButtonPressed;
-	}
+    private void OnDisable()
+    {
+        _playerInputController.OnJumpButtonPressed -= JumpButtonPressed;
+    }
 
-	void FixedUpdate()
+    void FixedUpdate()
     {
         if (inputDir.x != 0)
             Move();
         Jump();
 
-	}
+    }
 
     void Update()
     {
@@ -54,7 +54,7 @@ public class PlayerController2D : MonoBehaviour
         Vector3 direction = moveDirectionContraints * inputDir.x * _speed * Time.deltaTime;
         Vector3 _finalPos = transform.position + direction;
 
-		_rigidbody.MovePosition(_finalPos);
+        _rigidbody.MovePosition(_finalPos);
 
         if (gameObject.transform.position.y <= -10)
         {
@@ -83,5 +83,11 @@ public class PlayerController2D : MonoBehaviour
         {
             _jumpTriggered = true;
         }
+    }
+
+    public void TelePort(Vector3 position, Quaternion rotation)
+    {
+        transform.position = position;
+        Physics.SyncTransforms();      
     }
 }

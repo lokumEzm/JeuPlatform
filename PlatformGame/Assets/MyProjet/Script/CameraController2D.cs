@@ -20,12 +20,21 @@ public class CameraController2D : MonoBehaviour
 
 	private void OnTriggerEnter(Collider other)
 	{
-		if (!playerAssigned) AssignPlayer(true);
+		if (other.gameObject.tag == "Player")
+		{
+			if (!playerAssigned) AssignPlayer(true);
+			trackStart.gameObject.SetActive(true);
+			player.transform.position = trackStart.position;
+		}
 	}
 
 	private void OnTriggerExit(Collider other)
 	{
-		if (playerAssigned) AssignPlayer(false);
+		if (other.gameObject.tag == "Player")
+		{
+			if (playerAssigned) AssignPlayer(false);
+			trackStart.gameObject.SetActive(false);
+		}
 
 	}
 	void AssignPlayer(bool value)
@@ -34,7 +43,7 @@ public class CameraController2D : MonoBehaviour
 
 		playerController2D.moveDirectionContraints = directionCamera.right;
 
-		player.transform.position = trackStart.position;
+		
 		player.GetComponent<PlayerController>().enabled = !value;
 		player.GetComponent<PlayerController2D>().enabled = value;
 

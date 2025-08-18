@@ -10,7 +10,7 @@ public class PlayerCollectSystem : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         ICollectable icollectable = other.gameObject.GetComponent<ICollectable>();
-        Debug.Log(icollectable);
+
         if (icollectable == null)
             return;
 

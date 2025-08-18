@@ -62,6 +62,13 @@ public class PlayerController : MonoBehaviour
 		float _targetRotation = _camera.transform.eulerAngles.y;
 		float _playerAngleDamp = Mathf.SmoothDampAngle(transform.eulerAngles.y, _targetRotation, ref currentVelocity, _smoothTime);
 		transform.rotation = Quaternion.Euler(0f, _playerAngleDamp, 0f);
+
+
+        if (gameObject.transform.position.y <= -10)
+        {
+            gameObject.transform.position = new Vector3(-11.45f, 1, 0.5f);
+        }      
+    
 	}
 
 	public void Jump()
