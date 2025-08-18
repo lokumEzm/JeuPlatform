@@ -2,29 +2,21 @@ using UnityEngine;
 
 public class RefreshLevel : MonoBehaviour
 {
- Game currentGame
+ CurrentGame currentGame
     {
         get
         {
             return GameManager.Instance.currentGame;
         }
     }
-    
-        void Start()
-    {
 
+    void Start()
+    {
+        Refresh();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Refresh()
     {
-
-    }
-
-    public void LevelSelector()
-    {
-
-
         var lvl = GameManager.Instance.level;
         for (int i = 0; i < lvl.Length; i++)
         {
@@ -32,7 +24,7 @@ public class RefreshLevel : MonoBehaviour
             Debug.Log(currentGame.key + " -> " + "->" + i);
 
 
-            if (currentGame.key == lvlKey.GetComponent<LevelSelector>().levelKey )
+            if (currentGame.key == lvlKey.GetComponent<LevelSelector>().levelKey)
             {
                 Debug.Log(currentGame.key);
                 Debug.Log(currentGame.key + " -> " + lvlKey + "->" + i + " Level Debloqué");
@@ -46,11 +38,11 @@ public class RefreshLevel : MonoBehaviour
             {
                 lvlKey.GetComponent<LevelSelector>().activatorBc.SetActive(false);
                 lvlKey.GetComponent<MeshRenderer>().material = lvlKey.GetComponent<LevelSelector>().materialCloseLevel;
-                 lvlKey.GetComponent<LevelSelector>().cam.SetActive(false);
+                lvlKey.GetComponent<LevelSelector>().cam.SetActive(false);
                 Debug.Log("Close");
             }
 
-            if (currentGame.key > lvlKey.GetComponent<LevelSelector>().levelKey )
+            if (currentGame.key > lvlKey.GetComponent<LevelSelector>().levelKey)
             {
                 lvlKey.GetComponent<MeshRenderer>().material = lvlKey.GetComponent<LevelSelector>().materialFinishLevel;
                 lvlKey.GetComponent<LevelSelector>().door.GetComponent<Animator>().SetTrigger("Open");

@@ -4,14 +4,24 @@ using UnityEngine.Events;
 public class GameManager : MonoBehaviour
 {
     private static GameManager instance;
+
     public static GameManager Instance { get => instance; set => instance = value; }
-    public Game currentGame;
+    public CurrentGame currentGame;
+
+     [Header("Life")]
+    public GameObject lifes;
+    public Transform positionIntantiate;   
 
     public bool power;
     public GameObject player;
 
     [Header("Level")]
     public GameObject[] level;
+
+    [Header("Respawn")]
+    public Vector3 respawnPosition;
+
+
 
     [Header("Event")]
     public UnityEvent uiRefresh;
@@ -29,20 +39,12 @@ public class GameManager : MonoBehaviour
 
     public void Start()
     {
-        StartGame();
+        Refresh.Invoke();
+        respawnPosition = player.transform.position;
     }
 
     public void SwitshPower(bool value) => power = value;
 
 
-    public void StartGame()
-    {
-        for (int i = 0; i < currentGame.remainingLife; i++)
-        {
-            Instantiate(currentGame.lifes, currentGame.positionIntantiate);
-        }
-        uiRefresh.Invoke();
-        Refresh.Invoke();
-        Debug.Log("Refreched :)");
-    }
+   
 }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Level2
   m_EditorClassIdentifier: 
   levelName: Level2
-  levelKey: 2
+  levelKey: 5
   level: 2
   levelTime: 120
   materialCloseLevel: {fileID: 2100000, guid: 8b4cee850fb7742a1946581256be9899, type: 2}

@@ -1,0 +1,43 @@
+using UnityEngine;
+//reandentation
+public class LifeManager : MonoBehaviour
+{
+    [SerializeField]
+    public int startLife = 4;
+    public int currentLife;
+
+    IDamagable iDamageable;
+
+    public float lifeRate
+    {
+        get
+        {
+            return (float)currentLife / (float)startLife;
+        }
+    }
+
+    void Start()
+    {
+        currentLife = startLife;
+        iDamageable = GetComponent<IDamagable>();
+    }
+
+    public void SetDamage(int damage)
+    {
+        Debug.Log("++-");
+        currentLife -= damage;
+
+        if (currentLife <= 0)
+        {
+            currentLife = 0;
+            iDamageable.OnDied();
+
+        }
+        else
+        {
+            iDamageable.OnDamaged(damage);
+        }
+
+    }
+
+}

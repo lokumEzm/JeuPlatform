@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
@@ -10,7 +11,9 @@ public class IHM : MonoBehaviour
     public TextMeshProUGUI coinsText;
     public TextMeshProUGUI timerText;
 
-    Game currentGame
+    List<GameObject> lifesGo;
+
+    CurrentGame currentGame
     {
         get
         {
@@ -21,18 +24,15 @@ public class IHM : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Refresh();
+
+        currentGame.playerLifeManager.currentLife = currentGame.playerLifeManager.startLife;
+  InitLife();
+        RefreshUI();
+        
     }
 
-    // Update is called once per frame
-    void Update()
+    public void RefreshUI()
     {
-
-    }
-
-    public void Refresh()
-    {
-
         DisplayLife();
         DisplayCoin();
 
@@ -40,7 +40,13 @@ public class IHM : MonoBehaviour
 
     public void DisplayLife()
     {
+        foreach (GameObject life in lifesGo)
+            life.SetActive(false);
 
+        for (int i = 0; i < currentGame.playerLifeManager.currentLife; i++)
+        {
+            lifesGo[i].SetActive(true);
+        }
     }
 
     public void DisplayCoin()
@@ -48,4 +54,16 @@ public class IHM : MonoBehaviour
         coinsText.text = currentGame.coins.ToString();
         keyText.text = currentGame.key.ToString();
     }   
+
+     public void InitLife()
+    {
+        lifesGo = new List<GameObject>();
+         
+        for (int i = 0; i < currentGame.playerLifeManager.startLife; i++)
+        {
+            lifesGo.Add(Instantiate(GameManager.Instance.lifes, GameManager.Instance.positionIntantiate));
+        }
+       
+        Debug.Log("Refreched :)");
+    }
 }

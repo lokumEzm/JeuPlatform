@@ -1,7 +1,10 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
+	public static PlayerController Instance;
+
 	Vector3 inputDir = Vector3.zero;
 	public float _speed = 5;
 	public float _jumpSpeed = 10;
@@ -12,9 +15,15 @@ public class PlayerController : MonoBehaviour
 	private GroundController _groundController;
 	public Rigidbody _rigidbody;
 	private bool _jumpTriggered;
+	public Transform attackTrigger;
+	public float bounceForce = 8f;
 
 	private void Awake()
 	{
+		{
+			Instance = this;
+		}
+
 		_playerInputController = GetComponent<PlayerInputController>();
 		_rigidbody = GetComponent<Rigidbody>();
 		_groundController = GetComponent<GroundController>();
@@ -64,11 +73,11 @@ public class PlayerController : MonoBehaviour
 		transform.rotation = Quaternion.Euler(0f, _playerAngleDamp, 0f);
 
 
-        if (gameObject.transform.position.y <= -10)
-        {
-            gameObject.transform.position = new Vector3(-11.45f, 1, 0.5f);
-        }      
-    
+		if (gameObject.transform.position.y <= -10)
+		{
+			gameObject.transform.position = new Vector3(-11.45f, 1, 0.5f);
+		}
+
 	}
 
 	public void Jump()
@@ -88,5 +97,13 @@ public class PlayerController : MonoBehaviour
 		{
 			_jumpTriggered = true;
 		}
+	}
+
+	public void Bounce()
+	{
+		_jumpTriggered = true;
+		_rigidbody.AddForce(new Vector3(0, _jumpSpeed, 0), ForceMode.Impulse);	
+		_jumpTriggered = false;
+
 	}
 }

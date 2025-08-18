@@ -11,10 +11,4 @@ public class KeyController : MonoBehaviour,ICollectable
           GameManager.Instance.Refresh.Invoke();
         Destroy(gameObject);
     }
-
-    void Start()
-    {
-        
-    }
-
 }

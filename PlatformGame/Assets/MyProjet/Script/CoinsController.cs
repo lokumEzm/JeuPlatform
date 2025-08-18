@@ -11,10 +11,4 @@ public class CoinsController : MonoBehaviour, ICollectable
         GameManager.Instance.uiRefresh.Invoke();
         Destroy(gameObject);
     }
-
-    void Start()
-    {
-
-    }
-
 }
