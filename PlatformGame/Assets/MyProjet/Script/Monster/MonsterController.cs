@@ -20,17 +20,17 @@ public class MonsterController : MonoBehaviour, IDamagable
     {
 
         Debug.Log("Damaged" + gameObject);
-        Debug.Log(lifeManager.currentLife +"/ "+ gameObject.name);
+        Debug.Log(lifeManager.currentLife + "/ " + gameObject.name);
     }
 
     public void OnDied()
-    {      Debug.Log("Died" + gameObject);
-       
+    {
+        Debug.Log("Died" + gameObject);
+      //  if (gameObject.tag =="Enemy")
+        {
             Instantiate(deathEffect, transform.position, transform.rotation);
-             Destroy(gameObject);
-           // PlayerController.Instance.Bounce();
-        
-
-
+            Destroy(gameObject);
+             PlayerController.Instance.Bounce();
+        }
     }
 }
