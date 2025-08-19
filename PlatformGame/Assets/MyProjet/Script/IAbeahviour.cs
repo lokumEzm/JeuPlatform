@@ -11,9 +11,7 @@ public class IAbeahviour : MonoBehaviour
     TriggerRelay triggerRelay;
     [SerializeField]
     NavMeshAgent agent;
-    [SerializeField]
-    GameObject player;
-    [SerializeField]
+      [SerializeField]
     PatrolTrack patrolTrack;
     public enum PatrolType
     {
@@ -84,6 +82,7 @@ public class IAbeahviour : MonoBehaviour
     {
         while (true)
         {
+           
             anim.SetBool("Walk", true);
             anim.SetBool("Attack", false);
             for (int i = 0; i < patrolTrack.pointCount; i++)
@@ -111,7 +110,7 @@ public class IAbeahviour : MonoBehaviour
         {
             agent.SetDestination(target.transform.position);
 
-            if (agent.remainingDistance < agent.stoppingDistance + 0.5f)
+            if (agent.remainingDistance < agent.stoppingDistance + 0.2f)
             {
                 anim.SetBool("Attack", true);
                 anim.SetBool("Walk", false);
@@ -119,6 +118,7 @@ public class IAbeahviour : MonoBehaviour
 
                 if (lifeManager != null)
                     lifeManager.SetDamage(1);
+                Debug.Log("DAMAGE!!");
                 yield return new WaitForSeconds(3);
                  anim.SetBool("Walk", true);
                 anim.SetBool("Attack", false);

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 //reandentation
 public class LifeManager : MonoBehaviour
@@ -24,8 +25,8 @@ public class LifeManager : MonoBehaviour
 
     public void SetDamage(int damage)
     {
-        Debug.Log("++-");
-        currentLife -= damage;
+        StartCoroutine(DegatPause(damage));
+
 
         if (currentLife <= 0)
         {
@@ -39,5 +40,13 @@ public class LifeManager : MonoBehaviour
         }
 
     }
+
+    IEnumerator DegatPause(int damage)
+    {
+        currentLife -= damage;
+        yield return new WaitForSeconds(2);
+
+    }
+
 
 }

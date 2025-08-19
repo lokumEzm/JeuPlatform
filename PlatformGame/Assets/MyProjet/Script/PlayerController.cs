@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour
 	private bool _jumpTriggered;
 	public Transform attackTrigger;
 	public float bounceForce = 8f;
+	public Animator anim;
+	private Vector3 _moveDir;
 
 	private void Awake()
 	{
@@ -59,24 +61,22 @@ public class PlayerController : MonoBehaviour
 		_moveDir *= _speed;
 
 		//Strafe Dir
-		Vector3 _strafeDir = Vector3.Cross(Vector3.up, transform.forward) * _inputDir.x; // Get the perpandicular from forward
-		_strafeDir.Normalize();
-		_strafeDir *= _speed;
+		Vector3 _horizontal = Vector3.Cross(Vector3.up, transform.forward) * _inputDir.x; // Get the perpandicular from forward
+		_horizontal.Normalize();
+		_horizontal *= _speed;
 
-		_moveDir += _strafeDir; // Combine to vectors
+		_moveDir += _horizontal; // Combine to vectors
 
 		_rigidbody.MovePosition(transform.position + (_moveDir * Time.deltaTime));
+
+if(_moveDir.x !=0 || _moveDir.y !=0) 
+		transform.rotation = Quaternion.Slerp(transform.rotation , Quaternion.LookRotation ( new Vector3 (_moveDir.x, 0, _moveDir.z)),0.15f);
+		anim.SetFloat("AxisV", _inputDir.z);
 
 		//Rotate Player toward cam direction
 		float _targetRotation = _camera.transform.eulerAngles.y;
 		float _playerAngleDamp = Mathf.SmoothDampAngle(transform.eulerAngles.y, _targetRotation, ref currentVelocity, _smoothTime);
 		transform.rotation = Quaternion.Euler(0f, _playerAngleDamp, 0f);
-
-
-		if (gameObject.transform.position.y <= -10)
-		{
-			gameObject.transform.position = new Vector3(-11.45f, 1, 0.5f);
-		}
 
 	}
 
@@ -86,7 +86,11 @@ public class PlayerController : MonoBehaviour
 		if (_jumpTriggered)
 		{
 			_rigidbody.AddForce(new Vector3(0, _jumpSpeed, 0), ForceMode.Impulse);
+			anim.SetTrigger("Jump");
 			_jumpTriggered = false;
+
+			
+			
 
 		}
 	}
@@ -95,14 +99,16 @@ public class PlayerController : MonoBehaviour
 	{
 		if (_groundController.IsGrounded)
 		{
+			 anim.SetBool("IsGrounded", true);
 			_jumpTriggered = true;
+			 
 		}
 	}
 
 	public void Bounce()
 	{
 		_jumpTriggered = true;
-		_rigidbody.AddForce(new Vector3(0, _jumpSpeed, 0), ForceMode.Impulse);	
+		_rigidbody.AddForce(new Vector3(0, _jumpSpeed, 0), ForceMode.Impulse);
 		_jumpTriggered = false;
 
 	}

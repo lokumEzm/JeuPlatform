@@ -24,14 +24,12 @@ public class MonsterController : MonoBehaviour, IDamagable
     }
 
     public void OnDied()
-    {
-        Destroy(transform.parent.gameObject);
-
-        if (gameObject.CompareTag("Enemy"))
-        {
+    {      Debug.Log("Died" + gameObject);
+       
             Instantiate(deathEffect, transform.position, transform.rotation);
-            PlayerController.Instance.Bounce();
-        }
+             Destroy(gameObject);
+           // PlayerController.Instance.Bounce();
+        
 
 
     }

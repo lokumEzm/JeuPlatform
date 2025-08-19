@@ -8,7 +8,7 @@ public class HurtEnemy : MonoBehaviour
         Debug.Log(other.name + "/" + other.tag);
         if (other.CompareTag("Enemy"))
         {
-            other.transform.root.GetComponent<LifeManager>().SetDamage(1);
+            other.transform.parent.GetComponent<LifeManager>().SetDamage(1);
 
         }
     }
