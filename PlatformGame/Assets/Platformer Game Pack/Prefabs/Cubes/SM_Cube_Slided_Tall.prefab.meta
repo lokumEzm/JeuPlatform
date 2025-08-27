@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 10d39c72181cf445a94346731bec9c92
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Cubes/SM_Cube_Slided_Tall.prefab
+  uploadId: 729924

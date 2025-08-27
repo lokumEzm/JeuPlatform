@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0e04eb1e1d8d64fed8ad3a6620d887bc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Walls/SM_Wall_Complex.prefab
+  uploadId: 729924

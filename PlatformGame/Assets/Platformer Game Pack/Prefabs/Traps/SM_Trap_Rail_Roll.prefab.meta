@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 95915b33b89c24d28a45016748c7b318
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Rail_Roll.prefab
+  uploadId: 729924

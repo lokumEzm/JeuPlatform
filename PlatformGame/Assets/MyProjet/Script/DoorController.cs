@@ -9,7 +9,7 @@ public class DoorController : MonoBehaviour
 
     public void OpenDoor()
     {
-        if (doorNumber == GameManager.Instance.currentGame.key)
+        if (doorNumber >= DataPrecistentManager.instance.LevelDataNeedKey)
             Debug.Log("Porte Ouverte");
     }
 

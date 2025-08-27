@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b5bfb8b2fb2934a19b1c1d69219090c0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Props/SM_Finish_Lane.prefab
+  uploadId: 729924

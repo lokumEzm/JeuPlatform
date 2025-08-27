@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7eba9faac15df4280b49f7d2972e1209
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Hammer.prefab
+  uploadId: 729924

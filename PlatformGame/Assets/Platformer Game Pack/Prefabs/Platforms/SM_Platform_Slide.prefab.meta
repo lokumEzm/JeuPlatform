@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 51c958aa4bafc4ea9a69ebab650279c0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Platforms/SM_Platform_Slide.prefab
+  uploadId: 729924

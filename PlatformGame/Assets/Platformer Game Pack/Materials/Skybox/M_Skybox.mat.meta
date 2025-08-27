@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 044884b7d7eb4ff4ea0eb521f11b9604
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Materials/Skybox/M_Skybox.mat
+  uploadId: 729924

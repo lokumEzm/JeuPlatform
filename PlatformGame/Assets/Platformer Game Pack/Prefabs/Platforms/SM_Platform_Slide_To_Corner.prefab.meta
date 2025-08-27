@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f0e3d6ca1546c40f2b20fb488d433119
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Platforms/SM_Platform_Slide_To_Corner.prefab
+  uploadId: 729924

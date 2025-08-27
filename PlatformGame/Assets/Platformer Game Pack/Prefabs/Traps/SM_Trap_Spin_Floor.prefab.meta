@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: be388b470863449458aed7dbba403898
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Spin_Floor.prefab
+  uploadId: 729924

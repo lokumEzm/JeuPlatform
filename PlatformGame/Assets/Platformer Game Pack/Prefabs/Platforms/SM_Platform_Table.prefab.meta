@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1ded615d9bc0148dc8b6ea93a62785a4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Platforms/SM_Platform_Table.prefab
+  uploadId: 729924

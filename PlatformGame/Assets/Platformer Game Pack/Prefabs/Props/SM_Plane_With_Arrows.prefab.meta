@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7370776fcdc0e4f90ac01dc2412b5ed6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Props/SM_Plane_With_Arrows.prefab
+  uploadId: 729924

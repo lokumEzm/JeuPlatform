@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class IHM : MonoBehaviour
 {
+    DataPrecistentManager dataPrecistent;
 
     public TextMeshProUGUI levelText;
     public TextMeshProUGUI keyText;
@@ -25,10 +26,12 @@ public class IHM : MonoBehaviour
     void Start()
     {
 
+        dataPrecistent = GameObject.Find("DataPrecistent").GetComponent<DataPrecistentManager>();
+
         currentGame.playerLifeManager.currentLife = currentGame.playerLifeManager.startLife;
-  InitLife();
+        InitLife();
         RefreshUI();
-        
+
     }
 
     public void RefreshUI()
@@ -51,19 +54,19 @@ public class IHM : MonoBehaviour
 
     public void DisplayCoin()
     {
-        coinsText.text = currentGame.coins.ToString();
-        keyText.text = currentGame.key.ToString();
-    }   
+        coinsText.text = dataPrecistent.coins.ToString();
+        keyText.text = dataPrecistent.Key.ToString();
+    }
 
-     public void InitLife()
+    public void InitLife()
     {
         lifesGo = new List<GameObject>();
-         
+
         for (int i = 0; i < currentGame.playerLifeManager.startLife; i++)
         {
             lifesGo.Add(Instantiate(GameManager.Instance.lifes, GameManager.Instance.positionIntantiate));
         }
-       
+
         Debug.Log("Refreched :)");
     }
 }

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 09cbcbdc2298544588fe8b590716db24
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Platforms/SM_Platform_Shape_Curved.prefab
+  uploadId: 729924

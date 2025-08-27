@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8562fcc8b68262c4081edb6369499565
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Character/SM_Hat_05.prefab
+  uploadId: 729924

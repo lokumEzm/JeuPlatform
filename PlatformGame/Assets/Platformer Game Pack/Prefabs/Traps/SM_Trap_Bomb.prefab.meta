@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d0f6315b220744a9ba99add62313e185
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Bomb.prefab
+  uploadId: 729924

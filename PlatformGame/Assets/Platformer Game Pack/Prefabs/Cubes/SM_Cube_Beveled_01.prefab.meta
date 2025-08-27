@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a6ee4217856b347dd9596efcd7cdf5b3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Cubes/SM_Cube_Beveled_01.prefab
+  uploadId: 729924

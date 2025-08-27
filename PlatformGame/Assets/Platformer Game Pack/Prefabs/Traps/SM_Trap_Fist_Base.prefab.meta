@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f92e53cc96b6b47a194de6a104b5eebe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Fist_Base.prefab
+  uploadId: 729924

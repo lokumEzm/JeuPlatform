@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fc062f2a201d44f8ab3d044a1155741a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Rail_Plaftorm.prefab
+  uploadId: 729924

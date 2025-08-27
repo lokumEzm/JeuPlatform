@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 82e9f34292b334a61861085f77547f04
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Props/SM_Log_With_Ropes.prefab
+  uploadId: 729924

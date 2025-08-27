@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a89a38c5b47c4ad19aefdede13d95bf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Materials/Meshes/MI_Trap_10.mat
+  uploadId: 729924

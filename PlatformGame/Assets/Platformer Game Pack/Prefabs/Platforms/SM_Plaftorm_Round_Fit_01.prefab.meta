@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 789657ce06c09466f896923666bd696e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Platforms/SM_Plaftorm_Round_Fit_01.prefab
+  uploadId: 729924

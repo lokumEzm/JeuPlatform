@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9521db3ef6cd047ba9f7e6d40af9d957
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Crossbar.prefab
+  uploadId: 729924

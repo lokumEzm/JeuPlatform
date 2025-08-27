@@ -21,20 +21,8 @@ public class PlayerController2D : MonoBehaviour
         _playerInputController = GetComponent<PlayerInputController>();
         _rigidbody = GetComponent<Rigidbody>();
         _groundController = GetComponent<GroundController>();
-        _playerInputController.OnJumpButtonPressed += JumpButtonPressed;
     }
 
-    private void OnEnable()
-    {
-        _playerInputController.OnJumpButtonPressed += JumpButtonPressed;
-
-    }
-
-
-    private void OnDisable()
-    {
-        _playerInputController.OnJumpButtonPressed -= JumpButtonPressed;
-    }
 
     void FixedUpdate()
     {
@@ -85,9 +73,5 @@ public class PlayerController2D : MonoBehaviour
         }
     }
 
-    public void TelePort(Vector3 position, Quaternion rotation)
-    {
-        transform.position = position;
-        Physics.SyncTransforms();      
-    }
+   
 }

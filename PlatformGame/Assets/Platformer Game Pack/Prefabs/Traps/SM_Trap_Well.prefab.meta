@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c92ce177316fa49ceb2cdcd75a2e18d8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Well.prefab
+  uploadId: 729924

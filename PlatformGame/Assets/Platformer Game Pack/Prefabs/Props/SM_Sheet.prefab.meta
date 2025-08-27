@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 480cf86210a2548db96a007b843eb74b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Props/SM_Sheet.prefab
+  uploadId: 729924

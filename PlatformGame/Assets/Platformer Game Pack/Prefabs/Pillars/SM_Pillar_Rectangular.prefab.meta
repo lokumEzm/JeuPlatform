@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4329e673ae81c46a2bb60ac4437b0050
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Pillars/SM_Pillar_Rectangular.prefab
+  uploadId: 729924

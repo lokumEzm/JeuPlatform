@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0a02d9096778b450b826ef2ff1e051da
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Pillars/SM_Pillar_Beveled.prefab
+  uploadId: 729924

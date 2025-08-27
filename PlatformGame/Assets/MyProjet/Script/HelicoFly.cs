@@ -5,10 +5,12 @@ using System.Collections;
 
 
 public class HelicoFly : MonoBehaviour
-{ private Animator animator;
+{
+    private Animator animator;
     public GameObject cameraControll;
+    public GameObject cam;
 
-     public UnityEvent Actions;
+    public UnityEvent Actions;
 
     void Start()
     {
@@ -25,9 +27,11 @@ public class HelicoFly : MonoBehaviour
     {
 
         animator.SetTrigger("Fly"); // on Active le Trigger  "Active"
+        //SoundManager.Instance.PlaySound3D("Fly", cam.transform.position);
         yield return new WaitForSeconds(8);
         cameraControll.SetActive(false);
+
         Destroy(gameObject);  // on Detruit l'object
-      
+
     }
 }

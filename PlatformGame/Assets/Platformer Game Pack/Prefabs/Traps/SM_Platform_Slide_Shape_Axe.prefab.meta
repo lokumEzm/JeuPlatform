@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e7054dd0d1bb848cdb07b1c5eadbde0a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Platform_Slide_Shape_Axe.prefab
+  uploadId: 729924

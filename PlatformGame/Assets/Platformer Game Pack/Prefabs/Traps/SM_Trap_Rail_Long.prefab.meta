@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: edbf7fde033eb4bae83de6662eac05ea
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Rail_Long.prefab
+  uploadId: 729924

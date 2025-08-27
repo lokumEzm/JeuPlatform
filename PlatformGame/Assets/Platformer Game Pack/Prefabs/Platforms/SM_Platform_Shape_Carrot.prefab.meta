@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 80bdf36357aff4214a4b2b29c972d99e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Platforms/SM_Platform_Shape_Carrot.prefab
+  uploadId: 729924

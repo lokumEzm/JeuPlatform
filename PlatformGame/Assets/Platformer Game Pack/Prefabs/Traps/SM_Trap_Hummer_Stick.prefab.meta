@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b390a16ed9bfd490c9409b243f6ed7d2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Hummer_Stick.prefab
+  uploadId: 729924

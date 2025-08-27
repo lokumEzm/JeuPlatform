@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6d7d7ff84847d4b0680dd7c571ec5ce0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Props/SM_Rope_Circle.prefab
+  uploadId: 729924

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 673c1569211f244f58c09f96a677d2b1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Fan_Stick.prefab
+  uploadId: 729924

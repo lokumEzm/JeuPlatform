@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d3267cfc639e04e9abc2d1bec7cd7e99
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Walls/SM_Wall_With_Ridge_Long.prefab
+  uploadId: 729924

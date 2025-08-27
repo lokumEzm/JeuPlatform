@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2ab80973a4f304acba2ec46d58f3058a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Spin_Bar_Double.prefab
+  uploadId: 729924

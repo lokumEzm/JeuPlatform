@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 56a3b1ddada94d94fbbc21ffc541898b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Materials/Character/M_Character_Misc_1.mat
+  uploadId: 729924

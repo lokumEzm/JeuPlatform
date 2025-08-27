@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2ca16b757b29871418ca02c966af94e1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Character/SK_Knockout_Character.prefab
+  uploadId: 729924

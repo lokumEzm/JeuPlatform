@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ef38cec808d0746d09425f6226e4c4c1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Pillars/SM_Pillar_Stones.prefab
+  uploadId: 729924

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2c0d3f3492a1f455382f8c9044310fea
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Floors/SM_Floor_Shape_Teeth.prefab
+  uploadId: 729924

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d06e0f2dd2141448e997770eab165432
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Pillars/SM_Pillar_Ridge.prefab
+  uploadId: 729924

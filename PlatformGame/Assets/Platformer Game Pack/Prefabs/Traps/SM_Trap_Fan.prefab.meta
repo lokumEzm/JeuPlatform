@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ab9d09b6515aa414fae5ca087aa05abc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Fan.prefab
+  uploadId: 729924

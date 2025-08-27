@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5d7207d01cf504eebbd3c27efdd4c782
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Walls/SM_Wall_Sloped.prefab
+  uploadId: 729924

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d5309d7db9cd54c1c9a2e1c10acc8cf6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Floors/SM_Floor_Trapezoid.prefab
+  uploadId: 729924

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a6e4f67e8f3283741b837f607895f916
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Character/SM_Boot_03.prefab
+  uploadId: 729924

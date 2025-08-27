@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc8a42b49557442569a1295881959bcc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Floors/SM_Floor_08.prefab
+  uploadId: 729924

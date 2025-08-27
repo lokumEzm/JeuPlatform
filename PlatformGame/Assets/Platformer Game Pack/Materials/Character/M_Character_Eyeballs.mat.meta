@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: db5516c0de31a174c9280af4b4ab9905
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Materials/Character/M_Character_Eyeballs.mat
+  uploadId: 729924

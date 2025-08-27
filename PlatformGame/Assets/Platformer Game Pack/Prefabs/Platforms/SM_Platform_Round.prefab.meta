@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4e2c91c20c77f47f9a936bb1474dba49
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Platforms/SM_Platform_Round.prefab
+  uploadId: 729924

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a0019a9be17064e8e9b048fa3bf8c8d8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Platforms/SM_Platform_Octagone.prefab
+  uploadId: 729924

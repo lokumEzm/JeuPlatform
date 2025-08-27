@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cdf7f4825f06e4c7db136293c3e2a405
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Floors/SM_Floor_Huge.prefab
+  uploadId: 729924

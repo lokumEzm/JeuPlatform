@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b65f5effe8a864e49b4593ccf8bdbe71
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Platform.prefab
+  uploadId: 729924

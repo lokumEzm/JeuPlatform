@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 711090b23f2c4408f943033675a27bc0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Platforms/SM_Platform_Octagone_With_Ropes.prefab
+  uploadId: 729924

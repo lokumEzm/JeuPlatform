@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b05927417e0d24668b327a8fa3261951
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Floors/SM_Floor_rectangle_01.prefab
+  uploadId: 729924

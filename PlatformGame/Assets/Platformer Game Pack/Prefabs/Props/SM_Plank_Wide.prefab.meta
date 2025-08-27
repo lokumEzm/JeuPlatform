@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: be2eaa397e4b24679ab9e2707325fe92
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Props/SM_Plank_Wide.prefab
+  uploadId: 729924

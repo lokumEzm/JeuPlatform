@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6a458ce52e92942f3920b6ccaa3dabf3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Cubes/SM_Cube_03.prefab
+  uploadId: 729924

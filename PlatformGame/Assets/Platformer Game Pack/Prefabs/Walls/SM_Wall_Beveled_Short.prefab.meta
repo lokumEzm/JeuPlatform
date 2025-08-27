@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c8ee9629647a64547a902a98286fd8ff
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Walls/SM_Wall_Beveled_Short.prefab
+  uploadId: 729924

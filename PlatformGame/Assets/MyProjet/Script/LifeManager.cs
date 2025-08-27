@@ -31,7 +31,7 @@ public class LifeManager : MonoBehaviour
         if (currentLife <= 0)
         {
             currentLife = 0;
-            iDamageable.OnDied();
+            iDamageable.OnDead();
 
         }
         else
@@ -44,6 +44,7 @@ public class LifeManager : MonoBehaviour
     IEnumerator DegatPause(int damage)
     {
         currentLife -= damage;
+        Debug.Log("Touché");
         yield return new WaitForSeconds(2);
 
     }

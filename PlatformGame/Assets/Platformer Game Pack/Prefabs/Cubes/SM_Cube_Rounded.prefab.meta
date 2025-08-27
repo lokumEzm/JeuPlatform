@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f4e7a6acdf8d84563998b44612ea67b6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Cubes/SM_Cube_Rounded.prefab
+  uploadId: 729924

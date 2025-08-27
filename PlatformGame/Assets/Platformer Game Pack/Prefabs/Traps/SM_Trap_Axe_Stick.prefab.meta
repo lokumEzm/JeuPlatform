@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f561cc4f1e6bb4fc399c5be8bcd84a09
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Axe_Stick.prefab
+  uploadId: 729924

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6a56f374ff2e244498b9d836fa57c3b3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Walls/SM_Wall_Curved.prefab
+  uploadId: 729924

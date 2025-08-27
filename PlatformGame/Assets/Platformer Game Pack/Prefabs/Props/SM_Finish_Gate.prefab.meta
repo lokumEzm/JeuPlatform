@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dd5e8610d37074c7986ed25fa883c210
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Props/SM_Finish_Gate.prefab
+  uploadId: 729924

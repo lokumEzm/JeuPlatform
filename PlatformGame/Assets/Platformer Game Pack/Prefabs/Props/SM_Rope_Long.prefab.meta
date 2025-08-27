@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5c5e2759e2d9d4d7c958f10f93e9d1f4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Props/SM_Rope_Long.prefab
+  uploadId: 729924

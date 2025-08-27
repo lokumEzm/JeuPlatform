@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 64009217504d24ebe91b85679fc0dccf
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Pillars/SM_Pillar_With_Rails.prefab
+  uploadId: 729924

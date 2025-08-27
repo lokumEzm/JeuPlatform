@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 334ecf7cf988c467c9a4130f333c3715
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Materials/Meshes/MI_Wood_6.mat
+  uploadId: 729924

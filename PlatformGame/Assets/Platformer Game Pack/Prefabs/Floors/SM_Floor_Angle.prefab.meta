@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8dac544c3a68642b0a89845e56f629e6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Floors/SM_Floor_Angle.prefab
+  uploadId: 729924

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a7f99b3caf1004ae689d300781e875db
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Basin.prefab
+  uploadId: 729924

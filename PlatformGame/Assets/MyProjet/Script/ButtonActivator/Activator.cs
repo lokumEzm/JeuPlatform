@@ -11,6 +11,7 @@ public class Activator : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        SoundManager.Instance.PlaySound3D("Interrupt", transform.position);
         Actions.Invoke();
     }
    

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b0af16a24836647ecbfd4d52edbc575a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Platforms/SM_Platform_Shape_House.prefab
+  uploadId: 729924

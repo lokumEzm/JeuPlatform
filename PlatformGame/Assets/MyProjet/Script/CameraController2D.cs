@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Threading;
 using UnityEngine;
 
 public class CameraController2D : MonoBehaviour
@@ -7,14 +8,17 @@ public class CameraController2D : MonoBehaviour
 	public Transform directionCamera;
 	public GameObject player;
 	public Vector3 cameraOffset;
-	public PlayerController2D playerController2D;
+	public PlayerController2DNew playerController2DNew;
 
 	public Transform trackStart;
+	public TimerScript timerScript;
+	public GameObject flag;
 
 	public bool playerAssigned = false;
 
 	void Start()
 	{
+		timerScript = GetComponent<TimerScript>();
 		cam.SetActive(false);
 	}
 
@@ -22,6 +26,11 @@ public class CameraController2D : MonoBehaviour
 	{
 		if (other.gameObject.tag == "Player")
 		{
+			GameManager.Instance.inLevel = true;
+			timerScript.StartTimer();
+			timerScript.ChronoImage.SetActive(true);
+			MusicManager.Instance.PlayMusic("PlayMusic");
+
 			if (!playerAssigned) AssignPlayer(true);
 			trackStart.gameObject.SetActive(true);
 			player.transform.position = trackStart.position;
@@ -32,6 +41,9 @@ public class CameraController2D : MonoBehaviour
 	{
 		if (other.gameObject.tag == "Player")
 		{
+			GameManager.Instance.inLevel = false;
+			timerScript.ChronoImage.SetActive(false);
+			MusicManager.Instance.PlayMusic("MapMusic");
 			if (playerAssigned) AssignPlayer(false);
 			trackStart.gameObject.SetActive(false);
 		}
@@ -41,11 +53,11 @@ public class CameraController2D : MonoBehaviour
 	{
 		playerAssigned = value;
 
-		playerController2D.moveDirectionContraints = directionCamera.right;
+		playerController2DNew.moveDirectionContraints = directionCamera.right;
 
-		
-		player.GetComponent<PlayerController>().enabled = !value;
-		player.GetComponent<PlayerController2D>().enabled = value;
+
+		player.GetComponent<PlayerController3D>().enabled = !value;
+		player.GetComponent<PlayerController2DNew>().enabled = value;
 
 		cam.SetActive(value);
 

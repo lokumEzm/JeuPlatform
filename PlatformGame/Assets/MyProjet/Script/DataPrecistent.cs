@@ -1,10 +1,19 @@
 using UnityEngine;
 
-public class DataPrecistent : MonoBehaviour
+public class DataPrecistentManager : MonoBehaviour
 {
-    public static DataPrecistent instance;
+    public static DataPrecistentManager instance;
+
     
 
+    [Header("-- CurrentGame --")]
+
+    public int Key;
+    public string LevelName;
+    public int currentLevel;
+    public int flag;
+    public float timer;
+    public int coins;
 
     void Awake()
     {
@@ -16,5 +25,15 @@ public class DataPrecistent : MonoBehaviour
         instance = this;
         DontDestroyOnLoad(this.gameObject);
 
+    }
+
+    void Start()
+    {
+        PlayMusic();
+    }
+
+    public void PlayMusic()
+    {
+        MusicManager.Instance.PlayMusic("MapMusic");
     }
 }

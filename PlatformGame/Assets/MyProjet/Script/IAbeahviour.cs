@@ -66,12 +66,10 @@ public class IAbeahviour : MonoBehaviour
 
             agent.SetDestination(patrolTrack.patrolPoints[index].position);
             while (agent.pathPending) yield return null;
-            // Debug.Log(index);
             while (agent.remainingDistance > agent.stoppingDistance)
             {
                 yield return null;
             }
-            //  if (i == patrolTrack.patrolPoints.Count - 1)
             yield return null;
         }
 
@@ -89,7 +87,6 @@ public class IAbeahviour : MonoBehaviour
             {
                 agent.SetDestination(patrolTrack.patrolPoints[i].position);
                 while (agent.pathPending) yield return null;
-                Debug.Log(i);
                 while (agent.remainingDistance > agent.stoppingDistance)
                 {
                     yield return null;
@@ -118,7 +115,6 @@ public class IAbeahviour : MonoBehaviour
 
                 if (lifeManager != null)
                     lifeManager.SetDamage(1);
-                Debug.Log("DAMAGE!!");
                 yield return new WaitForSeconds(3);
                  anim.SetBool("Walk", true);
                 anim.SetBool("Attack", false);

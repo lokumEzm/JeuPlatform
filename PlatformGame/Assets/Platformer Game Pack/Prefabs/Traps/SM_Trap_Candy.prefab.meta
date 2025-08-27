@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ed7810c6ec3a94c26956bf2376f0441f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Candy.prefab
+  uploadId: 729924

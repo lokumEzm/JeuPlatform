@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 340aaf0e4b80449d494df18574ed6562
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Cannon.prefab
+  uploadId: 729924

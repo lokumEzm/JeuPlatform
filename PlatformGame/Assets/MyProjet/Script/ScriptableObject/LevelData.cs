@@ -7,9 +7,8 @@ public class LevelData : ScriptableObject
     public int levelKey;
     public int level;
     public int levelTime;
-    public Material materialCloseLevel;
+    public int levelFlag;
     public Material materialOpenLevel;
     public Material materialFinishLevel;
-    
-    
+    public GameObject spawnData; 
 }

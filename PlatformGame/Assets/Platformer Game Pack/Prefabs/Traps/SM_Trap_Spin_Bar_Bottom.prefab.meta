@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: de5c8492236264d1bbae882e24ef36e0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Spin_Bar_Bottom.prefab
+  uploadId: 729924

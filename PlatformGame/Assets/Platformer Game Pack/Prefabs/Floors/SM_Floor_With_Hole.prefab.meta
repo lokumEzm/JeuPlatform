@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e1c4030a6058b43faad9c7ab2c3bdfbc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Floors/SM_Floor_With_Hole.prefab
+  uploadId: 729924

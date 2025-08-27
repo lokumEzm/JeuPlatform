@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6d665cba6841f4f638055be263a13399
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Platforms/SM_Platform_Rectangle_Slide.prefab
+  uploadId: 729924

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 59ce0a61da3a34e3aafe5b21345d8f04
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Walls/SM_Wall_Rectangular.prefab
+  uploadId: 729924

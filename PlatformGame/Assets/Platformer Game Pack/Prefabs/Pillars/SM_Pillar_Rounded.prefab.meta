@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 97b30938a6aba453dadbbefda4ce2463
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Pillars/SM_Pillar_Rounded.prefab
+  uploadId: 729924

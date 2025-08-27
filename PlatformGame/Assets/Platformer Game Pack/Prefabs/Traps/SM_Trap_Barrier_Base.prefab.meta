@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fb987b8e43d9842b1a5d2746a1eb1908
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Barrier_Base.prefab
+  uploadId: 729924

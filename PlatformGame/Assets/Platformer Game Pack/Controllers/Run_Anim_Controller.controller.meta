@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a1fa20a371fabc3478622f583e560efc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Controllers/Run_Anim_Controller.controller
+  uploadId: 729924

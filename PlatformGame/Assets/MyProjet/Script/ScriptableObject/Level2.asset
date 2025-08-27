@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da2be8a0a37ca48c995d676d963ce467, type: 3}
   m_Name: Level2
   m_EditorClassIdentifier: 
-  levelName: Level2
-  levelKey: 5
+  levelName: THE DARK NIGHT
+  levelKey: 3
   level: 2
-  levelTime: 120
-  materialCloseLevel: {fileID: 2100000, guid: 8b4cee850fb7742a1946581256be9899, type: 2}
+  levelTime: 160
+  levelFlag: 1
   materialOpenLevel: {fileID: 2100000, guid: 8e595deb6cd244eb9a4abd06cc19dadb, type: 2}
   materialFinishLevel: {fileID: 2100000, guid: 353646b5de41446d39af6e90e0db93a4, type: 2}

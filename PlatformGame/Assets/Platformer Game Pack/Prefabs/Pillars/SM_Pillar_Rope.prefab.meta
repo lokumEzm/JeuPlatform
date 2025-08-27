@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5884673b156e64fbbac5d40a92c10a1c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Pillars/SM_Pillar_Rope.prefab
+  uploadId: 729924

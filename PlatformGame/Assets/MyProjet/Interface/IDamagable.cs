@@ -6,7 +6,7 @@ public interface IDamagable
 
     bool isAlive { get; }
 
-    void OnDied();
+    void OnDead();
     
     
 }

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 692b00707855c40f3887f1cf8fcbafbb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 310017
+  packageName: Platformer Game Pack
+  packageVersion: 1.0
+  assetPath: Assets/Platformer Game Pack/Prefabs/Traps/SM_Trap_Axe_Bolts.prefab
+  uploadId: 729924
