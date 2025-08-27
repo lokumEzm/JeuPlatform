@@ -1,3 +1,5 @@
+
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -6,7 +8,6 @@ public class GameManager : MonoBehaviour
     private static GameManager instance;
 
     public static GameManager Instance { get => instance; set => instance = value; }
-    DataPrecistentManager dataPrecistent;
 
     public CurrentGame currentGame;
 
@@ -21,9 +22,12 @@ public class GameManager : MonoBehaviour
     [Header("Level")]
     public GameObject[] level;
 
+    public List<TrackController> tracks;
 
     [Header("Respawn")]
     public Vector3 respawnPosition;
+
+    public LevelStat _activeLevel;
 
     [Header("Event")]
     public UnityEvent uiRefresh;
@@ -31,13 +35,22 @@ public class GameManager : MonoBehaviour
     public UnityEvent newRecord;
     public UnityEvent noRcord;
     public UnityEvent finishLevel;
+	public UnityEvent onCoinCollected;
+    public UnityEvent onKeyCollectedDel;
+	
 
-    public bool stopMove = false;
+	public bool stopMove = false;
     public bool night = false;
     public bool day = true;
 
 
-    public bool inLevel = false;
+    public bool inLevel
+    {
+        get
+        {
+            return _activeLevel != null;
+        }
+    }
 
 
     public void Awake()
@@ -50,11 +63,6 @@ public class GameManager : MonoBehaviour
 
     public void Start()
     {
-
-        dataPrecistent = GameObject.Find("DataPrecistent").GetComponent<DataPrecistentManager>();
-
-
-
 
         Refresh.Invoke();
         respawnPosition = player.transform.position;
@@ -98,4 +106,7 @@ public class GameManager : MonoBehaviour
 
 
     public void SwitshPower(bool value) => power = value;
+
+
+
 }

@@ -24,22 +24,30 @@ public class IAbeahviour : MonoBehaviour
 
     PatrolCoroutDel patrolCoroutDel;
 
-    Coroutine actifCorout;
+    Coroutine activeCorout;
 
     void Start()
     {
-        triggerRelay.onTriggerEnterEvent += OnTriggerEnter;
+        triggerRelay.onTriggerEnterDel += OnTriggerEnter;
         StartPatrol();
     }
 
    public void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player")) return;
-        StopCoroutine(actifCorout);
-        actifCorout = StartCoroutine(ChaseCorout(other.transform.root.gameObject));    
+        StopCoroutine(activeCorout);
+        activeCorout = StartCoroutine(ChaseCorout(other.transform.root.gameObject));    
     }
 
-    void StartPatrol()
+	public void OnTriggerExit(Collider other)
+	{
+		if (!other.CompareTag("Player")) return;
+
+		if (activeCorout != null)StopCoroutine(activeCorout);
+        StartPatrol();
+	}
+
+	void StartPatrol()
     {
         switch (patrolType)
         {
@@ -51,7 +59,7 @@ public class IAbeahviour : MonoBehaviour
                 patrolCoroutDel = PatrolRandomCorout;
                 break;
         }
-        actifCorout = StartCoroutine(patrolCoroutDel());
+        activeCorout = StartCoroutine(patrolCoroutDel());
     }
 
     IEnumerator PatrolRandomCorout()

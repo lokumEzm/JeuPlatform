@@ -2,15 +2,12 @@ using UnityEngine;
 
 public class DoorController : MonoBehaviour
 {
-    public int doorNumber;
+	[SerializeField] Animator animator;
 
+	public void OpenDoor(bool value)
+	{
+		animator.SetBool("Bool", value);
 
-
-
-    public void OpenDoor()
-    {
-        if (doorNumber >= DataPrecistentManager.instance.LevelDataNeedKey)
-            Debug.Log("Porte Ouverte");
-    }
+	}
 
 }

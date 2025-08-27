@@ -2,43 +2,49 @@ using UnityEngine;
 
 public class FlagController : MonoBehaviour, ICollectable
 {
-  DataPrecistentManager dataPrecistent;
-  [SerializeField]
-  LevelData levelData;
-  public int flagValue = 1;
+	LevelData levelData
+	{
+		get
+		{
+			return refTrack.levelData;
+		}
+	}
+	TrackController refTrack;
+	public int flagValue = 1;
 
-  public GameObject cameraPos;
+	public GameObject cameraPos;
 
-  void Start()
-  {
-  }
-  public void OnCollect()
-  {
-    LevelStat levelStats = GameManager.Instance.currentGame.GetLevelStat(levelData.level);
+	public void Init(TrackController refTrack)
+	{
+		this.refTrack = refTrack;
+	}
+	public void OnCollect()
+	{
+		LevelStat levelStats = GameManager.Instance.currentGame.GetLevelStat(levelData.level);
 
-    
-    GameManager.Instance.stopMove = true;
-    dataPrecistent.hSlevel1Timer = levelData.levelTime - dataPrecistent.timer;
-    GameManager.Instance.currentGame.currentTime = dataPrecistent.LevelDataTimer - dataPrecistent.timer;
 
-    float tim = PlayerPrefs.GetFloat("LevelRecord" + dataPrecistent.LevelDatalevel);
+		GameManager.Instance.stopMove = true;
+		LevelStat levelStat = GameManager.Instance.currentGame.GetLevelStat(levelData.level);
+		float newTime = refTrack.timerInfo.elapsedTime;
 
-    if (dataPrecistent.hSlevel1Timer < tim)
-    {
-      GameManager.Instance.stopMove = true;
-      PlayerPrefs.SetFloat("LevelRecord" + dataPrecistent.LevelDatalevel, dataPrecistent.hSlevel1Timer);
-      GameManager.Instance.newRecord.Invoke();
-      Debug.Log("New Record !!!");
-    }
-    else
-    {
-       GameManager.Instance.stopMove = true;
-      GameManager.Instance.noRcord.Invoke();
-      Debug.Log("Pas de Record");
-    }
-    SoundManager.Instance.PlaySound3D("Flag", cameraPos.transform.position);
-    dataPrecistent.flag ++;
-    GameManager.Instance.Refresh.Invoke();
-    Destroy(gameObject);
-  }
+
+		if (newTime < levelStat.playerTime)
+		{
+			levelStat.playerTime = newTime;
+			GameManager.Instance.stopMove = true;
+			GameManager.Instance.newRecord.Invoke();
+			Debug.Log("New Record !!!");
+		}
+		else
+		{
+			GameManager.Instance.stopMove = true;
+			GameManager.Instance.noRcord.Invoke();
+			Debug.Log("Pas de Record");
+		}
+		SoundManager.Instance.PlaySound3D("Flag", cameraPos.transform.position);
+		GameManager.Instance.currentGame.flagCount++;
+		GameManager.Instance.Refresh.Invoke();
+		refTrack.OnTrackFinished();
+		Destroy(gameObject);
+	}
 }

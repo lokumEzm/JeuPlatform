@@ -5,11 +5,9 @@ public class Record : MonoBehaviour
 {
     public GameObject newRecord;
     public GameObject noRecord;
-    DataPrecistentManager dataPrecistent;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        dataPrecistent = GameObject.Find("DataPrecistent").GetComponent<DataPrecistentManager>();
         newRecord.SetActive(false);
         noRecord.SetActive(false);
     }

@@ -2,36 +2,31 @@ using UnityEngine;
 
 public class CoinsController : MonoBehaviour, ICollectable
 {
-    DataPrecistentManager dataPrecistent;
+	public CoinsSpawner.CoinInfo coinInfo;
+	public MeshRenderer meshRenderer;
+	public Camera cameraPos;
 
-    public CoinsSpawner.CoinInfo coinInfo;
-    public MeshRenderer meshRenderer;
-    public Camera cameraPos;
+	void Awake()
+	{
+		cameraPos = GameObject.Find("Main Camera").GetComponent<Camera>();
+	}
 
-    void Awake()
-    {
-        dataPrecistent = GameObject.Find("DataPrecistent").GetComponent<DataPrecistentManager>();
+	public void Init(CoinsSpawner.CoinInfo coinInfo)
+	{
+		this.coinInfo = coinInfo;
+		meshRenderer.material = coinInfo.material;
+	}
 
-        cameraPos = GameObject.Find("Main Camera").GetComponent<Camera>();
-    }
+	public void OnCollect()
+	{
 
-    public void Init(CoinsSpawner.CoinInfo coinInfo)
-    {
-        this.coinInfo = coinInfo;
-        meshRenderer.material = coinInfo.material;
-    }
+		GameManager.Instance._activeLevel.collectedCoinsCount += coinInfo.value;
 
-    public void OnCollect()
-    {
-        dataPrecistent.coins += coinInfo.value; // on Ajoute la valeur du Coin dans l'inventaire.
 
-        var inlvl = GameManager.Instance.inLevel;
+		GameManager.Instance.onCoinCollected.Invoke();
 
-        if(inlvl)
-        GameManager.Instance.currentGame.currentCoins += coinInfo.value;
-        
-        GameManager.Instance.Refresh.Invoke();  // Refresh 
-        SoundManager.Instance.PlaySound3D("CoinsCollect", cameraPos.transform.position); // On joue un son quand on touche la piece
-        Destroy(gameObject);  // on detruit l 'objext
-    }
+		IHM.instance.RefreshUI();
+		SoundManager.Instance.PlaySound3D("CoinsCollect", cameraPos.transform.position); // On joue un son quand on touche la piece
+		Destroy(gameObject);  // on detruit l 'objext
+	}
 }

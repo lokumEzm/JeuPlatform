@@ -17,6 +17,7 @@ public class RefreshLevel : MonoBehaviour
 
     public void Refresh()
     {
+        /*
         var lvl = GameManager.Instance.level;
         for (int i = 0; i < lvl.Length; i++)
         {
@@ -34,6 +35,8 @@ public class RefreshLevel : MonoBehaviour
                 lvlKey.GetComponent<LevelSelector>().door.GetComponent<Animator>().SetBool("Bool",false);
             }       
         }
-        GameManager.Instance.uiRefresh.Invoke();
+        GameManager.Instance.uiRefresh.Invoke();*/
+
+        Debug.Log("Fonction a recoder");
     }
 }

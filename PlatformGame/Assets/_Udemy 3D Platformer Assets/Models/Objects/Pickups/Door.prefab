@@ -147,4 +147,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e57e399c319fc49599e90477112c98b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorController
-  doorNumber: 2
+  animator: {fileID: 6157098364219408692}

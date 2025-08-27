@@ -6,6 +6,7 @@ using UnityEngine;
 public class IHM : MonoBehaviour
 {
     DataPrecistentManager dataPrecistent;
+    public static IHM instance;
 
     public TextMeshProUGUI levelText;
     public TextMeshProUGUI keyText;
@@ -22,8 +23,13 @@ public class IHM : MonoBehaviour
         }
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+	private void Awake()
+	{
+		instance = this;
+	}
+
+	// Start is called once before the first execution of Update after the MonoBehaviour is created
+	void Start()
     {
 
         dataPrecistent = GameObject.Find("DataPrecistent").GetComponent<DataPrecistentManager>();
@@ -54,7 +60,7 @@ public class IHM : MonoBehaviour
 
     public void DisplayCoin()
     {
-        coinsText.text = dataPrecistent.coins.ToString();
+        coinsText.text = currentGame.coinsCount.ToString();
         keyText.text = dataPrecistent.Key.ToString();
     }
 

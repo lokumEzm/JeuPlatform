@@ -11,9 +11,8 @@ public class DataPrecistentManager : MonoBehaviour
     public int Key;
     public string LevelName;
     public int currentLevel;
-    public int flag;
+
     public float timer;
-    public int coins;
 
     void Awake()
     {

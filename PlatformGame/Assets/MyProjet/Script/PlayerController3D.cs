@@ -161,6 +161,12 @@ public class PlayerController3D : MonoBehaviour
             _cinemachineTargetYaw, 0.0f);
     }
 
+    public void SetPos(Vector3 pos)
+    {
+        _controller.Move(pos); 
+    }
+     
+
     #region move
     private void Move()
     {
